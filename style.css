@@ -1,0 +1,18 @@
+body {
+    background-color: antiquewhite;
+}
+h1, 
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+a {
+    font-size: 26px;
+    font-family: "Times New Roman", Times,sans-serif;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img {
+    width: 360px;
+    height: auto;
+}
