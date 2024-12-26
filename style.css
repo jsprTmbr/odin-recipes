@@ -1,5 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: antiquewhite;
+    box-sizing: border-box;
+    width: 600px;
+    margin: 16px auto;
+    padding: 12px;
 }
 h1, 
 h2 {
@@ -15,4 +24,43 @@ p {
 img {
     width: 360px;
     height: auto;
+}
+
+.title {
+    margin: 28px auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.description {
+    background-color: rgb(255, 248, 239);
+    padding: 30px;
+    border-radius: 30px;
+}
+.description h2 {
+    padding-bottom: 6px;
+}
+.ingredients {
+    margin: 20px auto;
+    background-color: rgb(255, 248, 239);
+    padding: 30px;
+    border-radius: 30px;
+}
+.ingredients h2 {
+    padding-bottom: 6px;
+}
+.ingredients p {
+    margin-bottom: 3px;
+}
+.ingredients ul {
+    padding-left: 20px;
+}
+.howto {
+    margin:20px auto;
+    background-color: rgb(255, 248, 239);
+    padding: 30px;
+    border-radius: 30px;
+}
+.howto ol {
+    padding-left: 20px;
 }
